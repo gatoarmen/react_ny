@@ -3,7 +3,37 @@ import React from "react";
 import "./Search.css";
 
 
-const  Search = ( ) => (
+// class Search extends React.Component {
+
+
+//   state = {
+//     //set initial state
+//     articles : [],
+//     topic: "",
+//     startYear: "",
+//     endYear: "",
+//     saved: []
+// }
+
+//     //handle search topic input
+//     handleTopicInput = e => {
+//       this.setState({topic: e.target.value})
+//   };
+
+//   handleStartYearInput = e => {
+//       this.setState({startYear: e.target.value})
+//   };
+
+//   handleEndYearInput = e => {
+//       this.setState({endYear: e.target.value})
+//   };
+
+//   render() { 
+
+//     return (
+
+
+const Search = () => (
 
   <div className="container">
 
@@ -67,5 +97,8 @@ const  Search = ( ) => (
 </div>
 
 );
+
+
+// };
 
 export default Search; 
